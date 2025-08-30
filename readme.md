@@ -4,7 +4,7 @@ Example ESLint rules for Kysely query builder.
 
 To use in a project, put in directory and add to ESLint config:
 
-```json
+```js
 import kysely-rules from "path-to-rules-folder/plugin.js";
 {
   "plugins": {kysely-rules: kysely-rules},
