@@ -1,0 +1,15 @@
+{
+  "name": "eslint-kysely-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "node ./rules/select.test.js && node ./rules/where.test.js&& node ./rules/null.test.js"
+  },
+  "author": "marcopedone",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.34.0",
+    "typescript": "^5.9.2"
+  }
+}
